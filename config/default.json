@@ -1,0 +1,11 @@
+{
+  "db": {
+    "client": "mysql2",
+    "connection": {
+      "host": "",
+      "user": "",
+      "password": "",
+      "database": ""
+    }
+  }
+}

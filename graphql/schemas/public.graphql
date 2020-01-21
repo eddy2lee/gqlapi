@@ -1,0 +1,11 @@
+# 图像
+scalar Image
+
+# 坐标
+scalar LonLat
+
+# 区域位置
+scalar AreaFrom
+
+# 日期
+scalar Date

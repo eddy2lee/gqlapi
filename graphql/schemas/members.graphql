@@ -1,0 +1,32 @@
+type Member {
+  id: Int!
+  username: String
+  portrait(style: String = "default"): Image
+  email: String
+  idea: String
+  location: LonLat
+  gender: Int
+  role: Int
+  age: Float
+  area_from: AreaFrom
+  access_token: String
+  prop_type: String
+  status: Int
+  is_blocked: Boolean
+  is_verified: Boolean
+  verified_at: Date
+  created_at: Date
+  last_login_at: Date
+}
+
+input MemberSearchParams {
+  q: String
+  limit: Int = 10
+  last_index_at: Int
+}
+
+# 成员查询
+type Query {
+  memberSearch(params: MemberSearchParams = {}): [Member]
+  memberGet(id: Int!): Member
+}
