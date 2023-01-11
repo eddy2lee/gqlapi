@@ -15,7 +15,7 @@
     "graphql": "^14.5.8",
     "graphql-merge-resolvers": "^1.1.12",
     "graphql-tools": "^4.0.6",
-    "knex": "^0.20.4",
+    "knex": "^2.4.0",
     "lodash": "^4.17.15",
     "merge-graphql-schemas": "^1.7.3",
     "mysql2": "^2.0.2"
